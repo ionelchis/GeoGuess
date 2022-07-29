@@ -4,6 +4,7 @@
     package="com.ionelchis.geoguess">
 
     <application
+        android:name=".GeoGuessApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
