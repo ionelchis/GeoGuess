@@ -41,4 +41,8 @@ abstract class BaseActivity<
 
         collectLifecycleFlow(viewModel.effect, this::renderEffect)
     }
+
+    protected fun dispatchIntent(intent: INTENT) {
+        viewModel.dispatchIntent(intent)
+    }
 }
